@@ -1,0 +1,16 @@
+#set("title") { Mobility Startup Name Generator }
+
+#set("body") {
+  <div class="intro">
+    <p>Your new mobility startup is called:</p>
+  </div>
+
+  <div class="startup">
+    <h2>#(name)</h2>
+    <p class="mission">You're building <em>#(mission)</em>!</p>
+  </div>
+
+<div class="credit"><a href="http://johansorensen.com/about">🚲</a></div>
+}
+
+#embed("base")
