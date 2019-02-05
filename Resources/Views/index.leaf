@@ -12,7 +12,7 @@
 
   <div class="reload"><p><a href="/">Another one</a></p></div>
 
-  <div class="credit"><a href="http://johansorensen.com/about">🚲</a></div>
+  <div class="credit"><a href="http://johansorensen.com/about">🛴</a></div>
 }
 
 #embed("base")

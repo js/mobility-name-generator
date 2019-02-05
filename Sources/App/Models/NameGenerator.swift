@@ -69,6 +69,7 @@ struct NameGenerator {
     "dockless",
     "electric",
     "hybrid",
+    "exclusive",
   ]
 
   private let kinds = [
@@ -96,7 +97,7 @@ struct NameGenerator {
     "cars",
     "tricycles",
     "unicycles",
-    //"one-wheelers",
+    "gondolas",
     "wheelbarrows",
     "rockets",
     "drones",
@@ -110,7 +111,8 @@ struct NameGenerator {
     "millennials",
     "hipsters",
     "the elder",
-    "white men",
+    "white dudes",
+    "tech bros",
     "rural areas",
     "urban areas",
     "China",
