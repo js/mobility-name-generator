@@ -7,10 +7,12 @@
 
   <div class="startup">
     <h2>#(name)</h2>
-    <p class="mission">Building <em>#(mission)</em>!</p>
+    <p class="mission">Building #(mission)!</p>
   </div>
 
-<div class="credit"><a href="http://johansorensen.com/about">🚲</a></div>
+  <div class="reload"><p><a href="/">Another one</a></p></div>
+
+  <div class="credit"><a href="http://johansorensen.com/about">🚲</a></div>
 }
 
 #embed("base")

@@ -65,6 +65,11 @@ div.startup .mission {
 }
 
 div.credit {
-  padding-top: 15em;
+  padding-top: 10em;
   padding-bottom: 5em;
+}
+
+div.reload {
+  font-size: 0.7em;
+  padding-top: 5em;
 }
