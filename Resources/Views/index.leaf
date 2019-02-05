@@ -2,12 +2,12 @@
 
 #set("body") {
   <div class="intro">
-    <p>Your new mobility startup is called:</p>
+    <p>Mobility Startup Name Generator</p>
   </div>
 
   <div class="startup">
     <h2>#(name)</h2>
-    <p class="mission">You're building <em>#(mission)</em>!</p>
+    <p class="mission">Building <em>#(mission)</em>!</p>
   </div>
 
 <div class="credit"><a href="http://johansorensen.com/about">🚲</a></div>
