@@ -40,7 +40,7 @@ struct NameGenerator {
     "skid",
     "zwo",
     "zwi",
-    ]
+  ]
 
   private let suffixes = [
     "pp",
@@ -58,7 +58,7 @@ struct NameGenerator {
     "sh",
     "ki",
     "mi",
-    ]
+  ]
 
   private let scopes = [
     "shared",
@@ -69,7 +69,7 @@ struct NameGenerator {
     "dockless",
     "electric",
     "hybrid",
-    ]
+  ]
 
   private let kinds = [
     "cargo",
@@ -84,7 +84,7 @@ struct NameGenerator {
     "self-assembling",
     "off-road",
     "virtual reality",
-    ]
+  ]
 
   private let vehicles = [
     "bikes",
@@ -101,7 +101,8 @@ struct NameGenerator {
     "rockets",
     "drones",
     "robots",
-    ]
+    "rickshaws",
+  ]
 
   private let target = [
     "kids",
@@ -117,7 +118,12 @@ struct NameGenerator {
     "Mars",
     "commuters",
     "San Francisco",
-    ]
+  ]
+
+  // Sometimes life imitates art
+  private let reserved = [
+    "lime",
+  ]
 
   func generate() -> Startup {
     let names = permutate(prefixes: prefixes.shuffled(), suffixes: suffixes.shuffled())
@@ -137,6 +143,6 @@ struct NameGenerator {
         names.append([prefix, suffix].joined())
       }
     }
-    return names
+    return names.filter { !reserved.contains($0) }
   }
 }
