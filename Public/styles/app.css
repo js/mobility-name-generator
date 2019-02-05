@@ -55,19 +55,16 @@ div.startup {
 }
 
 div.startup h2 {
-  font-size: 7em;
+  font-size: 12em;
   font-weight: bold;
 }
 
 div.startup .mission {
-  font-size: 1.3em;
+  font-size: 2.3em;
   margin-top: 1em;
 }
 
 div.credit {
-  height: 40px;
-  position: fixed;
-  bottom:0%;
-  width:100%;
-  opacity: 1;
+  padding-top: 15em;
+  padding-bottom: 5em;
 }
