@@ -128,7 +128,7 @@ struct NameGenerator {
 
   func generate() -> Startup {
     let names = permutate(prefixes: prefixes.shuffled(), suffixes: suffixes.shuffled())
-    let mission = "\(pluck(scopes)) \(pluck(kinds)) \(pluck(vehicles)) for \(pluck(target))"
+    let mission = "\(pluck(scopes).capitalized) \(pluck(kinds)) \(pluck(vehicles)) for \(pluck(target))"
     return Startup(name: names.randomElement()!, mission: mission)
   }
 

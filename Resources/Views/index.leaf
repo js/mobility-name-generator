@@ -7,10 +7,10 @@
 
   <div class="startup">
     <h2>#(name)</h2>
-    <p class="mission">Building #(mission)!</p>
+    <p class="mission">#(mission)</p>
   </div>
 
-  <div class="reload"><p><a href="/">Another one</a></p></div>
+  <div class="reload"><p><a href="/">Make nother one</a></p></div>
 
   <div class="credit"><a href="http://johansorensen.com/about">🛴</a></div>
 }
