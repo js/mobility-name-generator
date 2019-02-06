@@ -74,7 +74,6 @@ struct NameGenerator {
 
   private let kinds = [
     "cargo",
-    "electric",
     "hover",
     "self-driving",
     "biofueled",

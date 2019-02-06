@@ -1,8 +1,8 @@
-#set("title") { Mobility Startup Name Generator }
+#set("title") { Mobility Startup Generator }
 
 #set("body") {
   <div class="intro">
-    <p>Mobility Startup Name Generator</p>
+    <p>Mobility Startup Generator</p>
   </div>
 
   <div class="startup">
