@@ -40,6 +40,7 @@ struct NameGenerator {
     "skid",
     "zwo",
     "zwi",
+    "zob",
   ]
 
   private let suffixes = [
@@ -58,6 +59,9 @@ struct NameGenerator {
     "sh",
     "ki",
     "mi",
+    "lity",
+    "boost",
+    "rix",
   ]
 
   private let scopes = [
