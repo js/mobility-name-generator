@@ -3,7 +3,6 @@
 <head>
 	<title>#get(title)</title>
 	<link rel="stylesheet" href="/styles/app.css">
-  <meta name="viewport" content="initial-scale=1">
 
   <meta property="og:title" content="Mobility Startup Generator">
   <meta property="og:url" content="http://mobility.wtf/">
