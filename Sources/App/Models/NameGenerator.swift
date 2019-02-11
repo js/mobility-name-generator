@@ -68,7 +68,7 @@ struct NameGenerator {
     "shared",
     "smart",
     "on-demand",
-    "luxery",
+    "luxury",
     "extreme",
     "dockless",
     "electric",
